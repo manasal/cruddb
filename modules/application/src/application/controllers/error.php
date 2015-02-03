@@ -1,6 +1,4 @@
 <?php
-include ('../modules/application/src/application/models/getUsers.php');
-$filename = $config['filename'];
 
 switch($request['action'])
 {
@@ -11,7 +9,7 @@ switch($request['action'])
         
     case '404':  
         $usuarios = getUsers($filename);
-        include('../modules/application/src/application/views/error/error.phtml');
+        include('../modules/application/src/application/views/.phtml');
     break;
 }
 

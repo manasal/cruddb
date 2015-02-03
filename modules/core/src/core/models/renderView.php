@@ -1,7 +1,7 @@
 <?php
 
 
-function renderView($request, $config, $data)
+function renderView($request, $config, $data=null)
 {
     ob_start();
         include($config['view_path'].'/'.

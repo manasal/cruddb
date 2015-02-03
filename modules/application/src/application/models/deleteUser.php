@@ -1,5 +1,6 @@
 <?php
 
+
 function deleteUser($id, $filename)
 {
     $usuarios = getUsers($filename);
