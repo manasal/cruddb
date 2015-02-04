@@ -1,10 +1,6 @@
 <?php 
 $usuarios = $data['usuarios'];
 ?>
-<<<<<<< HEAD
-=======
-
->>>>>>> 4a05c91ef08f41a70c602b9be1c745ff499153e4
 <a href="/users/insert">Insert</a>
 <table  class="table table-striped">
 <?php foreach ($usuarios as $key => $usuario):
@@ -15,13 +11,8 @@ $usuarios = $data['usuarios'];
             <td> <?=$data;?> </td>
         <?php endforeach;?>
         <td>
-<<<<<<< HEAD
             <a href="/users/update/id/<?=$usuario[0];?>">Update</a> | 
             <a href="/users/delete/id/<?=$usuario[0];?>">Delete</a>
-=======
-            <a href="/users/update/id/<?=$key;?>">Update</a> | 
-            <a href="/users/delete/id/<?=$key;?>">Delete</a>
->>>>>>> 4a05c91ef08f41a70c602b9be1c745ff499153e4
         </td>
     </tr>
 <?php endforeach;?>
